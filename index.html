@@ -8,14 +8,59 @@
                 color: maroon;
                 font-weight: 900;
             }
+            .shell-body {
+                margin: 0;
+                padding: 5px;
+                pst-style: none;
+                background: #141414;
+                color: #babbbc;
+                font: 1.2em 'Andale Mono', Consolas, 'Courier New';
+                pne-height: 1.6em;
+
+                -webkit-border-bottom-right-radius: 3px;
+                -webkit-border-bottom-left-radius: 3px;
+                -moz-border-radius-bottomright: 3px;
+                -moz-border-radius-bottomleft: 3px;
+                border-bottom-right-radius: 3px;
+                border-bottom-left-radius: 3px;
+            }
+
+            .shell-body p:before {
+                content: 'me@vojislav.net: ';
+                color: #45D40C;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            .shell-body p {
+                word-wrap: break-word;
+                position: relative;
+                padding: 0 0 0 10em;
+                margin: 0 0 5px 0;
+            }
+            .shell-body div {
+                color: #babbbc;
+                margin: 0 0 10px 0;
+                font-size: 1.3em;
+            }
         </style>
     </head>
-    <body>
-        <img src="img/voja.jpg"/>
-        <p>I am <span class="emph">Vojislav Dukic</span> and I <span class="emph">build systems</span>.</p>
-        <p>I am a <span class="emph">PhD candidate</span> at <span class="emph">ETH Zurich</span>.</p>
-        
-        <p>Contact:</p>
-        <img src="img/mail.png">
+    <body class="shell-body">
+        <p>whoami</p>
+        <div>&emsp;Vojislav Dukic</div>
+        <p>cat BasicInfo.txt</p>
+        &emsp;<img src="img/voja.jpg"/>
+        <div>
+            &emsp;PhD candidate<br/>
+            &emsp;ETH Zurich<br/>
+            &emsp;Network Design & Architecture Lab (<a href="https://ndal.ethz.ch/">NDAL</a>), led by <a href="https://people.inf.ethz.ch/asingla/">Ankit Singla</a> <br/>
+        </div>
+        <p>ping vojislav --help</p>
+        <div>
+            &emsp;Office: CAB  <a href="http://www.rauminfo.ethz.ch/grundrissplan.gif?region=Z&areal=Z&gebaeude=CAB&geschoss=E&raumNr=71.2">E71.2</a><br/>
+            &emsp;Phone: +41 44 632 78 22<br/>
+            &emsp;Email: firstname dot lastname at ethz.ch
+        </div>
     </body>
 </html>
