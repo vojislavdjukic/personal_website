@@ -1,0 +1,44 @@
+.emph {
+    color: maroon;
+    font-weight: 900;
+}
+.shell-body {
+    margin: 0;
+    padding: 0.2em;
+    pst-style: none;
+    background: #141414;
+    color: #babbbc;
+    font: 1.2em 'Andale Mono', Consolas, 'Courier New';
+    pne-height: 1.6em;
+
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.shell-body p:before {
+    content: 'me@vojislav.net: ';
+    color: #45D40C;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.shell-body p {
+    word-wrap: break-word;
+    position: relative;
+    padding: 0 0 0 10em;
+    margin: 0 0 0.1em 0;
+}
+.shell-body div {
+    color: #babbbc;
+    margin: 0 0 0.1em 0;
+    font-size: 1.3em;
+}
+
+a {
+    color: rgb(85, 26, 139);
+}
