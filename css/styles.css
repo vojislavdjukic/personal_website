@@ -42,3 +42,7 @@
 a {
     color: rgb(85, 26, 139);
 }
+
+.u {
+    text-decoration: underline;
+}
