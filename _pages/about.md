@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "About me"
+excerpt: "PhD candidate doing distributed and networked system research"
 author_profile: true
 redirect_from: 
   - /about/
