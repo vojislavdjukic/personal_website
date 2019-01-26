@@ -44,7 +44,13 @@
   font-family: $sans-serif-narrow;
 
   a + a {
+
     opacity: 0.5;
+  }
+
+  .normal{
+    font-size: $type-size-5;
+    font-weight: normal;
   }
 }
 
@@ -58,8 +64,7 @@
 }
 
 .archive__item-excerpt {
-  margin-top: 0;
-  font-size: $type-size-6;
+  margin-top: 0.2em;
 
   & + p {
     text-indent: 0;
@@ -79,9 +84,6 @@
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
 
-  .archive__item-title {
-    text-decoration: underline;
-  }
 }
 
 
@@ -122,6 +124,7 @@
   .archive__item-title {
     margin-top: 0.5em;
     font-size: $type-size-5;
+
   }
 
   .archive__item-excerpt {
