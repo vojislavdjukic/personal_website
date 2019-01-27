@@ -34,6 +34,3 @@ Address: <br />
 Universitätstrasse 6 <br />
 8006 Zürich <br />
 Switzerland <br />
-
-
-

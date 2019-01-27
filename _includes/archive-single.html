@@ -43,7 +43,7 @@
         {% elsif post.collection == 'publications' %}
           {{ post.venue }}
             {% if post.paperurl %}
-              [ <a href="{{ page.paperurl }}"><u>pdf</u></a> ]
+              [ <a href="{{ post.paperurl }}"><u>pdf</u></a> ]
             {% endif %}
 
         {% elsif post.date %}
