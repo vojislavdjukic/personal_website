@@ -24,7 +24,7 @@ Research
 ------
 
 Is advance knowledge of flow sizes a plausible assumption? [<a href="publications/2018-12-21-NSDI_flow_size/">link</a>] <br />
-<small>NSDI '19 (to appear)</small> <br />
+<small>NSDI '19</small> <br />
 <small><u>Vojislav Dukic</u>, Sangeetha Abdu Jyothi, Bojan Karlas, Muhsen Owaida, Ce Zhang, Ankit Singla</small>
 
 Teaching
