@@ -22,6 +22,9 @@ Universitätstrasse 6, <br />
 
 Research
 ------
+Happiness index: Right-sizing the cloud’s tenant-provider interface <br />
+<small>HotCloud '19</small> <br />
+<small><u>Vojislav Dukic</u>, Ankit Singla</small>
 
 Is advance knowledge of flow sizes a plausible assumption? [<a href="publications/2018-12-21-NSDI_flow_size/">link</a>] <br />
 <small>NSDI '19</small> <br />
