@@ -3,6 +3,7 @@ title: "Happiness index: Right-sizing the cloud’s tenant-provider interface"
 collection: publications
 venue: 'HotCloud 19'
 authors: '<u>Vojislav Dukic</u>, Ankit Singla'
+firstpage: True
 ---
 
 Cloud providers and their tenants have a mutual interest in identifying optimal configurations in which to run tenant jobs, i.e., ones that achieve tenants' performance goals at minimum cost; or ones that maximize performance within a specified budget. However, different tenants may have different performance goals that are opaque to the provider. A consequence of this opacity is that providers today typically offer fixed bundles of cloud resources, which tenants must themselves explore and choose from. This is burdensome for tenants and can lead to choices that are sub-optimal for both parties.

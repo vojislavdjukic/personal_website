@@ -20,15 +20,13 @@ Phone: +41 44 632 78 22 <br />
 Universitätstrasse 6, <br />
 8006 Zürich <br />
 
+
 Research
 ------
-Happiness index: Right-sizing the cloud’s tenant-provider interface <br />
-<small>HotCloud '19</small> <br />
-<small><u>Vojislav Dukic</u>, Ankit Singla</small>
 
-Is advance knowledge of flow sizes a plausible assumption? [<a href="publications/2018-12-21-NSDI_flow_size/">link</a>] <br />
-<small>NSDI '19</small> <br />
-<small><u>Vojislav Dukic</u>, Sangeetha Abdu Jyothi, Bojan Karlas, Muhsen Owaida, Ce Zhang, Ankit Singla</small>
+{% for post in site.publications reversed %}
+  {% include publications-featured.html %}
+{% endfor %}
 
 Teaching
 ------

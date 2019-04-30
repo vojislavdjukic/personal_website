@@ -1,0 +1,7 @@
+{% include base_path %}
+
+{% if post.firstpage %}
+{{post.title}} {% if post.paperurl %} [<a href="{{post.paperurl}}">link</a>] {% endif%} <br />
+<small>{{post.venue}}</small> <br />
+<small>{{post.authors}}</small>
+{% endif %}

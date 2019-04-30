@@ -4,6 +4,7 @@ collection: publications
 venue: '(Poster) SoCC 18'
 paperurl: '/files/SoCC18_poster.pdf'
 authors: '<u>Vojislav Dukic</u>, Sangeetha Abdu Jyothi, Bojan Karlas, Muhsen Owaida, Ce Zhang, Ankit Singla'
+firstpage: False
 ---
 
 <b>Motivation:</b> Advance knowledge of future events in a dynamic system can often be used to take actions that improve system performance. In data center networks, such knowledge could potentially benefit many problems, including routing and flow scheduling, circuit switching, packet scheduling in switch queues, and transport protocols.

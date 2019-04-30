@@ -4,6 +4,7 @@ collection: publications
 venue: 'NSDI 19'
 paperurl: '/files/nsdi19-dukic.pdf'
 authors: '<u>Vojislav Dukic</u>, Sangeetha Abdu Jyothi, Bojan Karlas, Muhsen Owaida, Ce Zhang, Ankit Singla'
+firstpage: True
 ---
 
 Recent research has proposed several packet, flow, and coflow scheduling methods that could substantially improve performance for data center workloads. Most of this work assumes advance knowledge of flow sizes, but the lack of a clear path to obtaining such knowledge has also prompted some work on non-clairvoyant scheduling, albeit with more limited performance benefits and narrower applicability.
