@@ -2,12 +2,10 @@
 layout: compress
 ---
 
-{% include base_path %}
-
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
-    {% include head.html %}
+    {% include fix/head.html %}
   </head>
 
   <body>
@@ -16,19 +14,19 @@ layout: compress
     <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
     <![endif]-->
 
-    {% include masthead.html %}
+    {% include fix/masthead.html %}
 
     {{ content }}
 
     <div class="page__footer">
       <footer>
-        {% include footer.html %}
+        {% include fix/footer.html %}
       </footer>
     </div>
 
     <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
-    {% include analytics.html %}
+    {% include fix/analytics.html %}
 
   </body>
 </html>
