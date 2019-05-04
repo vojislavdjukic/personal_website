@@ -1,6 +1,6 @@
 ---
+layout: publication
 title: "Is advance knowledge of flow sizes a plausible assumption?"
-collection: publications
 venue: 'NSDI 19'
 paperurl: '/files/nsdi19-dukic.pdf'
 authors: ['Vojislav Dukic', 'Sangeetha Abdu Jyothi', 'Bojan Karlas', 'Muhsen Owaida', 'Ce Zhang', 'Ankit Singla']

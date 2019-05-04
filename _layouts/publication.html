@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="{{ page.title }}">
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+        <header>
+          <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
+          <p>{{ page.venue }} [ <a class="flink" href="{{ page.paperurl }}">pdf</a> ]</p>
+          <p>Authors: <br/>
+            <span style="font-weight: 600">
+            {% assign authors=page.authors%}
+            {% include author-list.html %}
+            </span>
+          </p>
+
+        </header>
+
+      <section class="page__content" itemprop="text">
+        {{ content }}
+      </section>
+    </div>
+
+  </article>
+
+</div>

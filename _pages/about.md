@@ -1,4 +1,5 @@
 ---
+layout: main
 permalink: /
 title: ""
 excerpt: "PhD candidate doing distributed and networked system research"

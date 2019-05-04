@@ -1,0 +1,17 @@
+{% include base_path %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+        <a class="ulink" href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+    </h2>
+    {{ post.venue }}
+    {% if post.paperurl %}
+      [ <a class="flink" href="{{ post.paperurl }}">pdf</a> ]
+    {% endif %}
+    <p class="archive__item-excerpt" itemprop="description">
+      {% assign authors=post.authors %}
+      {% include author-list.html %}
+    </p>
+  </article>
+</div>
