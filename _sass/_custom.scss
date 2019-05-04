@@ -1,0 +1,43 @@
+/* links */
+
+.flink {
+    color: $main-color;
+    text-decoration:none;
+
+    :link {
+        color: $main-color;
+    }
+
+    :active {
+        color: $main-color;
+    }
+
+    :visited {
+        color: $main-color;
+    }
+
+    :hover {
+        color: $main-color;
+    }
+}
+
+.ulink {
+    color: $text-color;
+    text-decoration:none;
+
+    :link {
+        color: $text-color;
+    }
+
+    :active {
+        color: $text-color;
+    }
+
+    :visited {
+        color: $text-color;
+    }
+
+    :hover {
+        color: $text-color;
+    }
+}

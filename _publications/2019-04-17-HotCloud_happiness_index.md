@@ -2,7 +2,7 @@
 title: "Happiness index: Right-sizing the cloud’s tenant-provider interface"
 collection: publications
 venue: 'HotCloud 19'
-authors: '<u>Vojislav Dukic</u>, Ankit Singla'
+authors: ['Vojislav Dukic', 'Ankit Singla']
 firstpage: True
 ---
 

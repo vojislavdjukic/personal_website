@@ -3,7 +3,7 @@ title: "Network Scheduling in the Dark"
 collection: publications
 venue: '(Poster) SoCC 18'
 paperurl: '/files/SoCC18_poster.pdf'
-authors: '<u>Vojislav Dukic</u>, Sangeetha Abdu Jyothi, Bojan Karlas, Muhsen Owaida, Ce Zhang, Ankit Singla'
+authors: ['Vojislav Dukic', 'Sangeetha Abdu Jyothi', 'Bojan Karlas', 'Muhsen Owaida', 'Ce Zhang', 'Ankit Singla']
 firstpage: False
 ---
 

@@ -1,0 +1,9 @@
+{% include base_path %}
+
+{% for author in authors %}
+{% if author=='Vojislav Dukic' %}
+  <u>Vojislav Dukic</u>{% if forloop.last == false %}, {% endif %}
+{% else %}
+  <a class='ulink' href="{{site.data.authors[author]['uri']}}">{{author}}</a>{% if forloop.last == false %}, {% endif %}
+{% endif %}
+{% endfor %}

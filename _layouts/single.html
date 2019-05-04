@@ -39,7 +39,7 @@ layout: default
         {% elsif page.venue and page.date %}
           <p>{{ page.venue }} <!--, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p> -->
           {% if page.paperurl %}
-            [ <a href="{{ page.paperurl }}"><u>pdf</u></a> ]
+            [ <a class="flink" href="{{ page.paperurl }}">pdf</a> ]
           {% endif %}
           </p>
         {% elsif page.date %}
@@ -48,7 +48,12 @@ layout: default
 
 
         {% if page.authors %}
-          <p>Authors: <br/> {{ page.authors }} </p>
+          <p>Authors: <br/>
+          <span style="font-weight: 600">
+          {% assign authors=page.authors%}
+          {% include author-list.html %}
+          </span>
+          </p>
         {% endif %}
 
         </header>
@@ -65,10 +70,6 @@ layout: default
         {% endif %}
         {% include page__taxonomy.html %}
       </footer>
-
-      <!-- {% if page.share %}{% include social-share.html %}{% endif %} -->
-
-      {% include post_pagination.html %}
     </div>
 
     {% if site.comments.provider and page.comments %}

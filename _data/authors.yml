@@ -1,18 +1,28 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+Ankit Singla:
+  uri         : "https://people.inf.ethz.ch/asingla/"
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Sangeetha Abdu Jyothi:
+  uri         : "http://abdujyo2.web.engr.illinois.edu/"
+
+Bojan Karlas:
+  uri         : "https://ds3lab.org/people/bojan.html"
+
+Muhsen Owaida:
+  uri         : "https://people.inf.ethz.ch/mewaida/"
+
+Ce Zhang:
+  uri         : "https://ds3lab.org/people/czhang.html"
+
+Ivan Luković:
+  uri         : "http://www.acs.uns.ac.rs/en/user/10"
+
+Matej Črepinšek:
+  uri         : "https://lpm.feri.um.si/en/members/crepinsek/"
+
+Tomaž Kosar:
+  uri         : "https://lpm.feri.um.si/en/members/kosar/"
+
+Marjan Mernik:
+  uri         : "https://lpm.feri.um.si/en/members/mernik/"

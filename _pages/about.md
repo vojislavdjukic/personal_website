@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Network Design & Architecture Lab (<a href="https://ndal.ethz.ch/">NDAL</a>), led by <a href="https://people.inf.ethz.ch/asingla/">Ankit Singla</a>
+I am a PhD candidate in Network Design & Architecture Lab (<a class="flink" href="https://ndal.ethz.ch/">NDAL</a>), led by <a class="flink" href="https://people.inf.ethz.ch/asingla/">Ankit Singla</a>
 
 My area of research is computer networks, distributed systems, and cloud computing.
 
@@ -24,12 +24,15 @@ Universitätstrasse 6, <br />
 Research
 ------
 
+<div class="featured_posts">
 {% for post in site.publications reversed %}
   {% include publications-featured.html %}
 {% endfor %}
+</div>
+
 
 Teaching
 ------
 ETH Zurich:<br />
-Future Internet (<a href="https://ndal.ethz.ch/courses/fi.html">link</a>) - 2019 <br />
-Advanced Computer Networks (<a href="https://ndal.ethz.ch/courses/acn.html">link</a>) - 2017,2018 <br />
+Future Internet (<a class="flink" href="https://ndal.ethz.ch/courses/fi.html">link</a>) - 2019 <br />
+Advanced Computer Networks (<a class="flink" href="https://ndal.ethz.ch/courses/acn.html">link</a>) - 2017,2018 <br />

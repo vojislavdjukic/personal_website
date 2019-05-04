@@ -1,7 +1,10 @@
 {% include base_path %}
 
 {% if post.firstpage %}
-{{post.title}} {% if post.paperurl %} [<a href="{{post.paperurl}}">link</a>] {% endif%} <br />
-<small>{{post.venue}}</small> <br />
-<small>{{post.authors}}</small>
+<a class="ulink" style="font-weight: bold" href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a> <br />
+<small>{{post.venue}}</small> {% if post.paperurl %} <small>[</small>&nbsp;<a class="flink" href="{{post.paperurl}}">pdf</a>&nbsp;<small>]</small>{% endif%}
+<p><small>
+    {% assign authors=post.authors %}
+    {% include author-list.html %}
+</small></p>
 {% endif %}
