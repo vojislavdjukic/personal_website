@@ -23,8 +23,9 @@
 
 .ulink {
     color: $text-color;
-    text-decoration:none;
-
+    text-decoration: underline;
+    text-decoration-color: $text-color;
+    text-decoration-style: dashed;
     :link {
         color: $text-color;
     }
@@ -38,20 +39,31 @@
     }
 
     position: relative;
-    padding-bottom: 0.2em;
-    &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 3px;
-        background: mix(#fff, $primary-color, 50%);
-        width: 100%;
-        display:none;
-    }
 
-    &:hover:before {
-        display: inline;
-
+    &:hover {
+        text-decoration-color: $main-color;
     }
+}
+
+.c_text {
+    color: $text-color;
+}
+
+.c_main {
+    color: $main-color;
+}
+
+.c_light_text {
+    color: $light_text;
+}
+
+.c_light_main {
+    color: $light_main;
+}
+
+.dashed_break {
+    padding-bottom: 0.1em;
+    border-bottom: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: $lighter-text;
 }

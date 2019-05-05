@@ -14,7 +14,7 @@ layout: default
     <div class="page__inner-wrap">
         <header>
           <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
-          <p>{{ page.venue }} [ <a class="flink" href="{{ page.paperurl }}">pdf</a> ]</p>
+          <p class="c_light_main" >{{ page.venue }} [ <a class="flink" href="{{ page.paperurl }}">pdf</a> ]</p>
           <p>Authors: <br/>
             <span style="font-weight: 600">
             {% assign authors=page.authors%}
@@ -24,7 +24,7 @@ layout: default
 
         </header>
 
-      <section class="page__content" itemprop="text">
+      <section class="page__content" style="text-align:justify;" itemprop="text">
         {{ content }}
       </section>
     </div>
