@@ -17,7 +17,7 @@
 
 
 
-<title>Page Not Found - Vojislav Dukic</title>
+<title>Overpaying the cloud - Vojislav Dukic</title>
 
 
 
@@ -27,13 +27,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Vojislav Dukic">
-<meta property="og:title" content="Page Not Found">
+<meta property="og:title" content="Overpaying the cloud">
 
 
-  <link rel="canonical" href="http://github.com/pages/vojislavdjukic/vojislavdjukic.github.io/404.html">
-  <meta property="og:url" content="http://github.com/pages/vojislavdjukic/vojislavdjukic.github.io/404.html">
+  <link rel="canonical" href="http://github.com/pages/vojislavdjukic/vojislavdjukic.github.io/posts/2019/05/cloud_meter/">
+  <meta property="og:url" content="http://github.com/pages/vojislavdjukic/vojislavdjukic.github.io/posts/2019/05/cloud_meter/">
 
 
+
+  <meta property="og:description" content="Cloud providers use resource overbooking to reduce the cost of running infrastructure and increase profit. Overbooking means that multiple cloud tenants are being charged for the same physical resource. This model works because not all users use the resource all the time, and then by statistical multiplexing users have an illusion that the resource is fully at their disposal. Overbooking has some obvious problems: (a) statistical multiplexing doesn’t work every time. With non-zero probability multiple tenants will use the same resource, which causes poor and unpredictable performance; and (b) tenants pay for the resources they don’t use.">
 
 
 
@@ -46,6 +48,9 @@
 
 
 
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2019-05-06T00:00:00+02:00">
 
 
 
@@ -230,21 +235,35 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Page Not Found">
-    
+    <meta itemprop="headline" content="Overpaying the cloud">
+    <meta itemprop="datePublished" content="May 06, 2019">
 
     <div class="page__inner-wrap">
-      <section class="page__content" itemprop="text">
-        <p>Sorry, but the page you were trying to view does not exist.</p>
+        <header>
+          <h2 class="page__title" itemprop="headline">Overpaying the cloud</h2>
+          <span class="c_light_main" >6 May 2019</span>
+          <ul class="tags">
+            
+              <li><small class="tag">elastic cloud</small></li>
+            
+              <li><small class="tag">cloud economy</small></li>
+            
+          </ul>
 
-<script type="text/javascript">
-  var GOOG_FIXURL_LANG = 'en';
-  var GOOG_FIXURL_SITE = ''
-</script>
+        </header>
 
-<script type="text/javascript" src="//linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js">
-</script>
+      <section class="page__content" style="text-align:justify;" itemprop="text">
+        <p>Cloud providers use resource overbooking to reduce the cost of running infrastructure and increase profit. Overbooking means that multiple cloud tenants are being charged for the same physical resource. This model works because not all users use the resource all the time, and then by statistical multiplexing users have an illusion that the resource is fully at their disposal. Overbooking has some obvious problems: (a) statistical multiplexing doesn’t work every time. With non-zero probability multiple tenants will use the same resource, which causes poor and unpredictable performance; and (b) tenants pay for the resources they don’t use.</p>
 
+<p>There are various reports that quantify negative effects of the overbooking policy on cloud tenants – <a href="https://ieeexplore.ieee.org/abstract/document/6973784">ioverbook</a>, <a href="https://awsinsider.net/articles/2017/11/20/rightscale-aws-overpay-6-billion.aspx">awsinsider</a>, <a href="https://kostner.com/2019/02/28/there-is-no-reason-to-overpay-for-cloud/">kostner</a>. According to these reports, tenants on average do not utilize 35% of resources they are paying for.</p>
+
+<h3 id="quantifying-unused-resources">Quantifying unused resources</h3>
+
+<p>The rule of thumb for cloud computing users is pay-for-what-you-use. Obviously, the overbooking model is far from providing this policy. The first step in fighting it is to make cloud users aware of the existence of this problem. Thus, I’m writing a simple script for AWS that will estimate resource utilization over time and use it to calculate the cost of resources that are not being used.</p>
+
+<p>The code is under construction and can be found <a href="https://github.com/vojislavdjukic/cloud-waste-meter">here</a>.</p>
+
+<p>Let me know how much do you waste.</p>
 
       </section>
     </div>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/posts/2012/08/blog-post-1/</loc>
-<lastmod>2012-08-14T00:00:00+02:00</lastmod>
+<loc>/posts/2019/05/cloud_meter/</loc>
+<lastmod>2019-05-06T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>/publications/2015-10-10-HuFo/</loc>
@@ -24,6 +24,9 @@
 <loc>/</loc>
 </url>
 <url>
+<loc>/blog/</loc>
+</url>
+<url>
 <loc>/publications/</loc>
 </url>
 <url>
@@ -31,18 +34,18 @@
 </url>
 <url>
 <loc>/files/SoCC18_poster.pdf</loc>
-<lastmod>2019-01-27T01:22:36+01:00</lastmod>
+<lastmod>2019-02-01T14:04:19+01:00</lastmod>
 </url>
 <url>
 <loc>/files/hufo.pdf</loc>
-<lastmod>2017-09-20T14:45:51+02:00</lastmod>
+<lastmod>2019-02-01T14:04:19+01:00</lastmod>
 </url>
 <url>
 <loc>/files/nsdi19-dukic.pdf</loc>
-<lastmod>2019-05-02T22:24:07+02:00</lastmod>
+<lastmod>2019-03-28T09:23:08+01:00</lastmod>
 </url>
 <url>
 <loc>/files/vojislav_cv.pdf</loc>
-<lastmod>2019-05-02T22:24:07+02:00</lastmod>
+<lastmod>2019-02-01T14:16:04+01:00</lastmod>
 </url>
 </urlset>

@@ -1,0 +1,18 @@
+{% include fix/base_path %}
+
+<div class="list__item">
+  <article class="archive__item dashed_break" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+        <a class="ulink" href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+    </h2>
+    <span class="c_light_main">{{ post.date | date: "%-d %B %Y"}}</span><br/>
+    <ul class="tags">
+      {% for tag in post.tags%}
+        <li><small class="tag">{{tag}}</small></li>
+      {% endfor %}
+    </ul>
+    <p class="archive__item-excerpt c_light_text" itemprop="description">
+    {{post.abstract}}
+    </p>
+  </article>
+</div>

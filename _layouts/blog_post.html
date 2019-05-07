@@ -14,13 +14,12 @@ layout: default
     <div class="page__inner-wrap">
         <header>
           <h2 class="page__title" itemprop="headline">{{ page.title }}</h2>
-          <p class="c_light_main" >{{ page.venue }} [ <a class="flink" href="{{ page.paperurl }}">pdf</a> ]</p>
-          <p>Authors: <br/>
-            <span style="font-weight: 600">
-            {% assign authors=page.authors%}
-            {% include author-list.html %}
-            </span>
-          </p>
+          <span class="c_light_main" >{{ page.date | date: "%-d %B %Y"}}</span>
+          <ul class="tags">
+            {% for tag in page.tags%}
+              <li><small class="tag">{{tag}}</small></li>
+            {% endfor %}
+          </ul>
 
         </header>
 

@@ -14,11 +14,12 @@ My area of research is computer networks, distributed systems, and cloud computi
 
 Contact
 ------
-<b>Email:</b> vojislav.dukic@inf.ethz.ch <br/>
-Office: CAB  E71.2 <br />
-Phone: +41 44 632 78 22 <br />
+<span class="c_main">vojislav.dukic@inf.ethz.ch</span> <br/>
+<small class="c_light_text">Phone: +41 44 632 78 22 <br />
+Address: CAB  E71.2, <br />
 Universitätstrasse 6, <br />
 8006 Zürich <br />
+</small>
 
 
 Research
