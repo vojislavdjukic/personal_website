@@ -37,5 +37,6 @@ Research
 Teaching
 ------
 ETH Zurich:<br />
-Future Internet (<a class="flink" href="https://ndal.ethz.ch/courses/fi.html">link</a>) - 2019 <br />
-Advanced Computer Networks (<a class="flink" href="https://ndal.ethz.ch/courses/acn.html">link</a>) - 2017,2018 <br />
+Future Internet (<a class="flink" href="https://ndal.ethz.ch/courses/fi.html">link</a>) - 2019, 2020 <br />
+Advanced Computer Networks (<a class="flink" href="https://ndal.ethz.ch/courses/acn.html">link</a>) - 2017, 2018 <br />
+Computer Networks (<a class="flink" href="https://ndal.ethz.ch/courses/networks.html">link</a>) - 2019, 2020 <br />
