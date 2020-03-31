@@ -1,4 +1,5 @@
 ---
+ready: false
 layout: blog_post
 title: 'Overpaying the cloud'
 date: 2019-05-06
