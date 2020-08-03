@@ -9,18 +9,20 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Network Design & Architecture Lab (<a class="flink" href="https://ndal.ethz.ch/">NDAL</a>), led by <a class="flink" href="https://people.inf.ethz.ch/asingla/">Ankit Singla</a>.
-My area of research is computer networks, distributed systems, and cloud computing.
+I am a PhD candidate at Network Design & Architecture Lab (<a class="flink" href="https://ndal.ethz.ch/">NDAL</a>), <a class="flink" href="https://www.systems.ethz.ch/">System Group</a>, <a class="flink" href="https://www.ethz.ch/">ETH Zurich</a>.
+
+I design and build systems with strong theoretical foundations that focus on improving cloud infrastructure in three dimensions: <i>usability</i>, <i>performance</i>, and <i>cost</i>. 
+<br/>In parallel, I work on bridging the gap between remote and on site workers by building an always-on video communication platform.
+
 
 Contact
 ------
 <span class="c_main">vojislav.dukic@inf.ethz.ch</span> <br/>
-<small class="c_light_text">Phone: +41 44 632 78 22 <br />
-Address: CAB  E71.2, <br />
-Universitätstrasse 6, <br />
-8006 Zürich <br />
+<small>
+Address: STF  G222, <br />
+Stampfenbachstrasse 114 <br />
+8092 Zurich <br />
 </small>
-
 
 Research
 ------
