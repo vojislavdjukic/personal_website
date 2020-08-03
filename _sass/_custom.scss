@@ -23,9 +23,10 @@
 
 .ulink {
     color: $text-color;
-    text-decoration: underline;
-    text-decoration-color: $text-color;
-    text-decoration-style: dashed;
+    text-decoration: none;
+    //text-decoration: underline;
+    //text-decoration-color: $text-color;
+    //text-decoration-style: dashed;
     :link {
         color: $text-color;
     }

@@ -5,6 +5,7 @@
     <h2 class="archive__item-title" itemprop="headline">
         <a class="ulink" href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
     </h2>
+    <small>
     <span class="c_light_main">
     {{ post.venue }}
     {% if post.paperurl %}
@@ -15,5 +16,6 @@
       {% assign authors=post.authors %}
       {% include author-list.html %}
     </p>
+  </small>
   </article>
 </div>
