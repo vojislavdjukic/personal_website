@@ -5,13 +5,16 @@
     <h2 class="archive__item-title" itemprop="headline">
         <a class="ulink" href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
     </h2>
-    <small>
     <span class="c_light_main">
     {{ post.venue }}
     {% if post.paperurl %}
-      [ <a class="flink" href="{{ post.paperurl }}">pdf</a> ]
+      <span style="color: #494e52">[</span> <a class="flink" href="{{ post.paperurl }}">pdf</a> <span style="color: #494e52">]</span>
+    {% endif %}
+    {% if post.videourl %}
+        <span style="color: #494e52">[</span> <a class="flink" href="{{ post.videourl }}">video</a> <span style="color: #494e52">]</span>
     {% endif %}
     </span>
+    <small>
     <p class="archive__item-excerpt" itemprop="description">
       {% assign authors=post.authors %}
       {% include author-list.html %}

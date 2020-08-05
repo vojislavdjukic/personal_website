@@ -3,6 +3,9 @@
 {% if post.firstpage %}
 <a class="ulink" style="font-weight: bold" href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a> <br />
 <small class="c_light_main">{{post.venue}}</small> {% if post.paperurl %} <small>[</small>&nbsp;<a class="flink" href="{{post.paperurl}}">pdf</a>&nbsp;<small>]</small>{% endif%}
+{% if post.videourl %}
+    <small>[</small> <a class="flink" href="{{ post.videourl }}">video</a> <small>]</small>
+{% endif %}
 <p style="margin-bottom: 0.5em;"><small>
     {% assign authors=post.authors %}
     {% include author-list.html %}

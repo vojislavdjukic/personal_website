@@ -1,23 +1,23 @@
 /* links */
 
 .flink {
-    color: $main-color;
+    color: $light_main;
     text-decoration:none;
 
     :link {
-        color: $main-color;
+        color: $light_main;
     }
 
     :active {
-        color: $main-color;
+        color: $light_main;
     }
 
     :visited {
-        color: $main-color;
+        color: $light_main;
     }
 
     :hover {
-        color: $main-color;
+        color: $light_main;
     }
 }
 
@@ -60,6 +60,8 @@
 
 .c_light_main {
     color: $light_main;
+    font-size: $type-size-5 ;
+    //color: $main-color;
 }
 
 .dashed_break {

@@ -3,6 +3,7 @@ layout: publication
 title: "Beyond the Mega-Data Center: Networking Multi-Data Center Regions"
 venue: 'SIGCOMM 20'
 paperurl: '/files/sigcomm20-dukic.pdf'
+videourl: 'https://dl.acm.org/doi/abs/10.1145/3387514.3406220#sec-supp'
 authors: ['Vojislav Dukic', 'Ginni Khanna', 'Christos Gkantsidis', 'Thomas Karagiannis', 'Francesca Parmigiani', 'Ankit Singla', 'Mark Filer', 'Jeffrey L. Cox', 'Anna Ptasznik', 'Nick Harland', 'Winston Saunders', 'Christian Belady']
 firstpage: True
 ---

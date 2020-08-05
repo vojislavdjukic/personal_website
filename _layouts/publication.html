@@ -14,7 +14,9 @@ layout: default
     <div class="page__inner-wrap">
         <header>
           <h2 class="page__title" itemprop="headline">{{ page.title }}</h2>
-          <p class="c_light_main" >{{ page.venue }} [ <a class="flink" href="{{ page.paperurl }}">pdf</a> ]</p>
+          <p class="c_light_main" >{{ page.venue }} <span style="color: #494e52">[</span> <a class="flink" href="{{ page.paperurl }}">pdf</a> <span style="color: #494e52">]</span>{% if page.videourl %}
+            <span style="color: #494e52">[</span> <a class="flink" href="{{ page.videourl }}">video</a> <span style="color: #494e52">]</span>
+          {% endif %}</p>
           <p>Authors: <br/>
             <span style="font-weight: 600">
             {% assign authors=page.authors%}
