@@ -3,6 +3,7 @@ layout: publication
 title: "Photons: Lambdas on a diet"
 venue: 'SoCC 20'
 authors: ['Vojislav Dukic', 'Rodrigo Bruno', 'Ankit Singla', 'Gustavo Alonso']
+paperurl: '/files/socc20-dukic.pdf'
 firstpage: True
 ---
 
