@@ -13,7 +13,9 @@ redirect_from:
 I am a PhD candidate at Network Design & Architecture Lab (<a class="flink" href="https://ndal.ethz.ch/">NDAL</a>), <a class="flink" href="https://www.ethz.ch/">ETH Zurich</a>.</h3>
 
 <small>
-I design and build systems with strong theoretical foundations that focus on improving cloud infrastructure in three dimensions: <i>usability</i>, <i>performance</i>, and <i>cost</i>. In parallel, I work on bridging the gap between remote and on site workers by building an always-on video communication platform. <br/> My work involves low-level and kernel programming, using and deploying programmable hardware like FPGA and P4 switches, machine learning training and deployment, creating network and workload simulators, designing novel algorithms and heuristics, and evaluating and analytically proving key system properties.
+I design and build systems with strong theoretical foundations that focus on improving cloud infrastructure in three dimensions: <i>usability</i>, <i>performance</i>, and <i>cost</i>. My work involves low-level and kernel programming, using and deploying programmable hardware like FPGA and P4 switches, machine learning training and deployment, creating network and workload simulators, designing novel algorithms and heuristics, and evaluating and analytically proving key system properties.
+<br/>
+In parallel, I work <a class="flink" href="https://multeex.com/">Multeex</a>, a platform that makes business communication simple, immediate, low-effort, information-rich.
 </small>
 
 
