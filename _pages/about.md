@@ -15,7 +15,7 @@ I am a PhD candidate at Network Design & Architecture Lab (<a class="flink" href
 <small>
 I design and build systems with strong theoretical foundations that focus on improving cloud infrastructure in three dimensions: <i>usability</i>, <i>performance</i>, and <i>cost</i>. My work involves low-level and kernel programming, using and deploying programmable hardware like FPGA and P4 switches, machine learning training and deployment, creating network and workload simulators, designing novel algorithms and heuristics, and evaluating and analytically proving key system properties.
 <br/> <br/>
-In parallel, I work <a class="flink" href="https://multeex.com/">Multeex</a>, a platform that makes business communication simple, immediate, low-effort, information-rich.
+In parallel, I work on <a class="flink" href="https://multeex.com/">Multeex</a>, a platform that makes business communication simple, immediate, low-effort, information-rich.
 </small>
 
 
